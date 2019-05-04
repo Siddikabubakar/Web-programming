@@ -1,0 +1,119 @@
+<!doctype html>
+    <head>
+        <title>Create Your CV</title>
+        <style>
+            body{
+                background: url(sha/back.jpg);
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            #cv{
+                height: 1100px;
+                width: 80%;
+                margin: 5% 10% 10% 10%;
+                background-color: #F1DDD0;
+                text-align: center;
+            }
+            body div fieldset form{
+                margin-left:20%;
+            }
+        </style>
+    </head>
+<body>
+<head>
+
+		<div role="main">
+        <div id="content" class="content">
+        </div>
+
+        <div id="input" class="input">
+            <h1 id="input-title"> <b>Curriculum vitae </b></h1>
+             <tr> <td></td>  <td> </td><td> </b>Personal details </b></td></tr>  
+
+            <table id="table1" class="table">
+            <tr> <td>First name: </td><td> <input class="text-box" type="text" id="fname" /> </td> </tr>
+            <tr> <td>Last name: </td><td> <input class="text-box" type="text" id="lname" /> </td> </tr>
+            <tr> <td>Father name: </td><td> <input class="text-box" type="text" id="lname" /> </td> </tr>
+            <tr> <td> Mother name: </td><td> <input class="text-box" type="text" id="lname" /> </td> </tr>
+            <tr> <td>National Id:</td><td> <input class="text-box" type="text" id="lname" /> </td> </tr>
+            <tr> <td> Marital Status: </td><td> <input class="text-box" type="text" id="lname" /> </td> </tr>
+            <tr> <td>Nationality: </td><td> <input class="text-box" id="nationality" /> </td></tr>
+            <tr> <td>Religion: </td><td> <input class="text-box" type="text" id="lname" /> </td> </tr
+            <tr> <td>Phone number: </td><td> <input class="text-box" id="phone" /> </td></tr>
+            <tr> <td>Email: </td> <td> <input class="text-box" type="text" id="email" /><br </td> </tr>
+            <tr> <td> Gender: </td><td> <select id="pass" class="text-box">Select sex:
+                <option>Select:</option>
+                <option>Female</option>
+                <option>Male</option> </td> </tr>
+            </select>
+            <tr> <td>Birthday: </td><td>
+                <select class="text-box2" id="b_day" >
+                    <option>Day:</option>
+                </select>
+                <select class="text-box2  id="b_month" >
+                    <option>Month:</option>
+                </select>
+                <select class="text-box2" id="b_year" >
+                    <option>Year:</option>
+                </select> </td> </tr>
+            </table>
+            <table id="table2" class="table">
+            <tr> <td> Present Address: </td><td> <textarea class="text-box" rows="3" cols="19" id="adress" ></textarea> </td></tr>
+            <tr> <td> Permanent Address: </td><td> <textarea class="text-box" rows="3" cols="19" id="adress" ></textarea> </td></tr>
+
+
+            <tr> <td>Website: </td><td> <textarea class="text-box" rows="3" cols="19" id="website" ></textarea> </td></tr>
+            </table>
+            <table id="table3" class="table">
+            <tr> <td> </td><td><b>Working Experience</b> </td></tr>
+            <tr> <td>Company: </td><td> <input class="text-box" id="company" /> </td></tr>
+            <tr> <td>Start Date: </td><td> <input class="text-box" id="c_start_date" /> </td></tr>
+            <tr> <td>End Date: </td><td> <input class="text-box" id="c_end_date" /> </td></tr>
+            <tr> <td>Role: </td><td> <input class="text-box" id="c_role" /> </td></tr>
+            <tr> <td>Description/Responsibilities: </td><td> <textarea rows="3" cols="19" class="text-box" id="c_desc" ></textarea> </td><tr>
+
+             <tr> <td></td> <td><b>EDUCATIONAL QUALIFICATION </b></td></tr>
+             <tr> <td></td> <td><b>Undergraduate</b></td></tr>
+            <tr> <td>Name of institution: </td><td> <input class="text-box" id="education" /> </td></tr>
+            <tr> <td>Board : </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td>Exam/degree title: </td><td> <input class="text-box" id="e_course" /> </td></tr>
+            <tr> <td>Major/group: </td><td> <input class="text-box" id="e_start_date" /> </td></tr>
+            <tr> <td>Result : </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td>Passing year: </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td></td> <td><b>HSC</b></td></tr>
+            <tr> <td>Name of institution: </td><td> <input class="text-box" id="education" /> </td></tr>
+            <tr> <td>Board : </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td>Exam/degree title: </td><td> <input class="text-box" id="e_course" /> </td></tr>
+            <tr> <td>Major/group: </td><td> <input class="text-box" id="e_start_date" /> </td></tr>
+            <tr> <td>Result : </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td>Passing year: </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+
+            <tr> <td></td> <td><b>SSC</b></td></tr>
+            <tr> <td>Name of institution: </td><td> <input class="text-box" id="education" /> </td></tr>
+            <tr> <td>Board : </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td>Exam/degree title: </td><td> <input class="text-box" id="e_course" /> </td></tr>
+            <tr> <td>Major/group: </td><td> <input class="text-box" id="e_start_date" /> </td></tr>
+            <tr> <td>Result : </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+            <tr> <td>Passing year: </td><td> <input class="text-box" id="e_end_date" /> </td></tr>
+
+            <tr> <td></td> <td><b>Skills and expertise</b></td></tr>
+            <tr> <td>Strong points: </td><td> <textarea class="text-box" rows="6" cols="19" id="skills"></textarea> </td><tr>
+            </table>
+            <tr>
+                        <td>Upload your Image </td>
+                        <td>:<input type="file" name="picture" accept="image/*"></td>
+                    </tr>
+                    <br/>
+                    <br/>
+                    <br/>
+
+
+                <tr>
+                    <td></td>
+                     <button id="submit_data" class="left-button" type="button" onclick="submitData()">  <b>SUBMIT INFORMATIONT</b></button>
+                </tr>
+	
+</body>
+</html>
+
+
